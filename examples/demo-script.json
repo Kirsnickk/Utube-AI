@@ -1,0 +1,12 @@
+{
+  "title":"Từ ý tưởng đến video AI: 4 bước",
+  "description":"Video mẫu kiểm thử pipeline local. Kịch bản mẫu, chưa phải sản phẩm do ba agent sinh.",
+  "sources":[{"url":"https://github.com/heygen-com/hyperframes","note":"Engine dựng video từ code."}],
+  "scenes":[
+    {"heading":"Một ý tưởng. Một video.","narration":"Một video AI không xuất hiện chỉ từ một câu lệnh. Phía sau là một chuỗi công việc, từ ý tưởng đến bản dựng hoàn chỉnh."},
+    {"heading":"01 · Viết kịch bản","narration":"Đầu tiên, agent xác định người xem và thông điệp. Kịch bản chia thành từng cảnh, với lời dẫn và nội dung cần minh họa."},
+    {"heading":"02 · Tạo giọng đọc","narration":"Tiếp theo, công cụ chuyển văn bản thành giọng nói tạo lời dẫn tiếng Việt. Thời lượng âm thanh giúp xác định nhịp và độ dài từng cảnh."},
+    {"heading":"03 · Dựng bằng code","narration":"Engine dựng video kết hợp đồ họa chuyển động với âm thanh. Mỗi cảnh được đặt vào đúng thời điểm rồi xuất thành một tệp video."},
+    {"heading":"04 · Kiểm tra rồi đăng","narration":"Cuối cùng, kiểm tra phụ đề, thông tin và quyền sử dụng tài nguyên. Chỉ đăng khi bản video đã sẵn sàng cho người xem."}
+  ]
+}

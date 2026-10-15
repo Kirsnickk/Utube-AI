@@ -1,0 +1,31 @@
+{
+  "format":"landscape",
+  "provenance":{"scriptAuthor":"Codex biên tập từ catalog và bình luận riêng","agentGenerated":false,"scope":"Giới thiệu phiên bản và góc nhìn bình luận; chưa recap một tập phim cụ thể"},
+  "script":{
+    "title":"Tam Quốc 2010 — Tập thử 01: Quyền lực và lòng tin",
+    "description":"Tập thử giới thiệu Tam Quốc 2010, dùng đồ họa nguyên bản và lời bình riêng. Thông tin phiên bản dựa trên catalog iQIYI. Không dùng footage phim và không đánh giá cảnh chưa xem.",
+    "sources":[{"id":"iqiyi_catalog","url":"https://www.iq.com/album/%E4%B8%89%E5%9C%8B-2010-19rrj6uod5?lang=zh_tw","scope":"Năm, đạo diễn, dàn diễn viên, số tập và synopsis tổng quan"}],
+    "scenes":[
+      {"heading":"TAM QUỐC: quyền lực và lòng tin","narration":"Điều gì khiến một câu chuyện tranh đoạt quyền lực vẫn đáng xem hôm nay? Với tôi, câu hỏi nằm ở lòng tin. Ta tin ai, vì sao tin, và sẽ trả giá thế nào nếu chọn sai? Đây là tập thử mở đầu cho series giới thiệu và bình luận Tam Quốc. Chúng ta bắt đầu từ bản phim truyền hình năm hai nghìn mười."},
+      {"heading":"Chọn đúng bản phim","narration":"Catalog của iQIYI xác nhận bản Tam Quốc này ra mắt năm hai nghìn mười, do Cao Hy Hy đạo diễn, với danh sách phát gồm chín mươi lăm tập. Dàn diễn viên có Trần Kiến Bân, Lục Nghị và Vu Hòa Vĩ. Việc xác định phiên bản rất quan trọng: khi làm review, tôi muốn bình luận tác phẩm cụ thể, thay vì trộn phim, sách và những điều mình nhớ mang máng."},
+      {"heading":"Một hành trình nhiều bước ngoặt","narration":"Theo mô tả của đơn vị phát hành, câu chuyện trải từ cuối thời Đông Hán, qua các trận Quan Độ và Xích Bích, đến thế chân vạc ba nước và sự thống nhất dưới nhà Tấn. Đó là khung tổng quan của bộ phim. Trong series này, mỗi video sẽ chọn một chặng nhỏ để người xem theo được câu chuyện, thay vì nhồi cả hành trình vào một bản kể quá nhanh."},
+      {"heading":"Xem lựa chọn, không chỉ xem thắng thua","narration":"Góc nhìn tôi muốn thử là theo dõi lựa chọn của nhân vật. Trước một quyết định, họ đang biết những gì? Họ muốn đạt điều gì, và phải đánh đổi điều gì? Đây là cách tiếp cận bình luận của series, chưa phải kết luận về một cảnh phim cụ thể. Một lựa chọn có thể hợp lý ở thời điểm đưa ra, nhưng kết quả sau đó vẫn có thể khiến người xem tranh luận."},
+      {"heading":"Tóm tắt và bình luận là hai việc","narration":"Phần tóm tắt phải bám vào điều thực sự xuất hiện trong bản phim. Phần bình luận là nơi đặt câu hỏi và nêu cách hiểu riêng. Tôi muốn giữ ranh giới đó rõ ràng, để bạn biết lúc nào đang nghe diễn biến, lúc nào đang nghe ý kiến. Nếu một chi tiết chưa được đối chiếu với tập phim, nó sẽ không được biến thành một tình tiết chắc chắn chỉ để câu chuyện nghe hấp dẫn hơn."},
+      {"heading":"Khi review từng tập, cần nhìn gì?","narration":"Với các tập tiếp theo, tôi sẽ kiểm tra ba điểm: bối cảnh trước quyết định, hành động của nhân vật, và hệ quả mà bản phim cho thấy. Khi bàn về diễn xuất hoặc cách dựng, cần đối chiếu trực tiếp với cảnh tương ứng. Tập thử hôm nay chỉ dùng thông tin giới thiệu chính thức và đồ họa minh họa, nên chưa đưa ra đánh giá về những cảnh chưa được xem và kiểm chứng."},
+      {"heading":"Bạn đứng về lựa chọn nào?","narration":"Nếu thích cách nhìn này, bạn có thể chọn một nhân vật hoặc một bước ngoặt muốn được phân tích trước. Mục tiêu của series là kể đủ để hiểu, rồi dành chỗ cho câu hỏi của người xem. Không phải chỉ ai thắng, ai thua, mà là tại sao họ chọn như vậy. Đây là tập thử đầu tiên của Tam Quốc: quyền lực, lòng tin và cái giá của lựa chọn."}
+    ]
+  },
+  "design":{
+    "accent":"#e7bf75",
+    "labels":["TẬP THỬ 01 / GIỚI THIỆU","TAM QUỐC · 2010 · CAO HY HY","KHUNG TRUYỆN THEO CATALOG","GÓC NHÌN BÌNH LUẬN RIÊNG","PHÂN BIỆT DIỄN BIẾN VÀ Ý KIẾN","CHỈ KẾT LUẬN KHI CÓ ĐỐI CHIẾU","KỂ ĐỦ HIỂU · BÌNH LUẬN CÓ NGUỒN"],
+    "scenes":[
+      {"type":"title","items":["Quyền lực","Lòng tin","Lựa chọn"]},
+      {"type":"process","items":["Bản phim 2010","95 tập","Cao Hy Hy"]},
+      {"type":"process","items":["Cuối Đông Hán","Quan Độ · Xích Bích","Ba nước · Nhà Tấn"]},
+      {"type":"process","items":["Thông tin đang có","Điều muốn đạt","Điều phải đánh đổi"]},
+      {"type":"checklist","items":["Tóm tắt: bám bản phim","Bình luận: nêu cách hiểu","Chi tiết: đối chiếu nguồn"]},
+      {"type":"checklist","items":["Bối cảnh","Hành động","Hệ quả"]},
+      {"type":"title","items":["Nhân vật bạn muốn xem","Bước ngoặt muốn phân tích"]}
+    ]
+  }
+}

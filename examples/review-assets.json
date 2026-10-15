@@ -1,0 +1,58 @@
+{
+  "shots": [
+    {
+      "sceneId": "c1s1",
+      "file": "assets/tam-quoc/strategy.png",
+      "provenance": {
+        "origin": "Existing original ImageGen illustrations; assets/tam-quoc/PROMPTS.md",
+        "rights": "Created for this project in previous session; no film footage/still",
+        "scope": "Symbolic period illustration, not reconstruction of this exact shot or actors"
+      }
+    },
+    {
+      "sceneId": "c1s2",
+      "file": "assets/tam-quoc/courtyard.png",
+      "provenance": {
+        "origin": "Existing original ImageGen illustrations; assets/tam-quoc/PROMPTS.md",
+        "rights": "Created for this project in previous session; no film footage/still",
+        "scope": "Symbolic period illustration, not reconstruction of this exact shot or actors"
+      }
+    },
+    {
+      "sceneId": "c2s1",
+      "file": "assets/tam-quoc/strategy.png",
+      "provenance": {
+        "origin": "Existing original ImageGen illustrations; assets/tam-quoc/PROMPTS.md",
+        "rights": "Created for this project in previous session; no film footage/still",
+        "scope": "Symbolic period illustration, not reconstruction of this exact shot or actors"
+      }
+    },
+    {
+      "sceneId": "c2s2",
+      "file": "assets/tam-quoc/ridge.png",
+      "provenance": {
+        "origin": "Existing original ImageGen illustrations; assets/tam-quoc/PROMPTS.md",
+        "rights": "Created for this project in previous session; no film footage/still",
+        "scope": "Symbolic period illustration, not reconstruction of this exact shot or actors"
+      }
+    },
+    {
+      "sceneId": "c3s1",
+      "file": "assets/tam-quoc/courtyard.png",
+      "provenance": {
+        "origin": "Existing original ImageGen illustrations; assets/tam-quoc/PROMPTS.md",
+        "rights": "Created for this project in previous session; no film footage/still",
+        "scope": "Symbolic period illustration, not reconstruction of this exact shot or actors"
+      }
+    },
+    {
+      "sceneId": "c3s2",
+      "file": "assets/tam-quoc/river.png",
+      "provenance": {
+        "origin": "Existing original ImageGen illustrations; assets/tam-quoc/PROMPTS.md",
+        "rights": "Created for this project in previous session; no film footage/still",
+        "scope": "Symbolic period illustration, not reconstruction of this exact shot or actors"
+      }
+    }
+  ]
+}

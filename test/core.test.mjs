@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs/promises';import os from 'node:os';import path from 'node:path';
+import {locked,writeJSON,readJSON,jobPath,validateScript,escapeHTML,hash} from '../src/core.mjs';
+test('job paths cannot escape workspace',()=>{for(const id of ['../x','C:\\foo','x/y',''])assert.throws(()=>jobPath('.',id));});
+test('lock prevents overlapping workers and releases on failure',async()=>{const d=await fs.mkdtemp(path.join(os.tmpdir(),'video-test-'));await locked(d,async()=>assert.rejects(locked(d,async()=>{}),/locked/));await assert.rejects(locked(d,async()=>{throw Error('fail');}));await locked(d,async()=>{});await fs.rm(d,{recursive:true});});
+test('atomic job persistence preserves state',async()=>{const d=await fs.mkdtemp(path.join(os.tmpdir(),'video-state-'));await writeJSON(path.join(d,'job.json'),{stage:'review',id:'1'});assert.equal((await readJSON(path.join(d,'job.json'))).stage,'review');await fs.rm(d,{recursive:true});});
+test('script rejects empty scenes, HTML is escaped, hashes bind bytes',()=>{assert.throws(()=>validateScript({title:'x',sources:[],scenes:[]}));assert.equal(escapeHTML('<script>'),'&lt;script&gt;');assert.notEqual(hash('a'),hash('b'));});

@@ -1,0 +1,6 @@
+{
+  "topic": "AI tạo video YouTube hoạt động như thế nào?",
+  "audience": "Người mới muốn hiểu pipeline tạo video bằng AI",
+  "sources": [{"url":"https://github.com/heygen-com/hyperframes","note":"Hyperframes dựng MP4 từ HTML/CSS/media và animation có thể seek."}],
+  "facts": ["Agent có thể chuẩn bị kịch bản và cấu trúc cảnh.","TTS tạo giọng đọc từ văn bản.","Renderer ghép phần hình và âm thanh thành video.","Nên kiểm tra nội dung và bản quyền trước khi đăng."]
+}

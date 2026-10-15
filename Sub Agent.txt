@@ -1,0 +1,5 @@
+antigravity/gemini-3.8-flash-tiered
+ollamacloud/nemotron-3-ultra
+kr/claude-sonnet-4.5
+grok-cli/grok-4.7 (brain)
+from omniroute

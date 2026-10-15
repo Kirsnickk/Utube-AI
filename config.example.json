@@ -1,0 +1,7 @@
+{
+  "gateway": {"baseUrl": "http://localhost:20128/v1", "apiKeyEnv": "OMNIROUTE_API_KEY", "timeoutMs": 120000},
+  "models": {"brain": "grok-cli/grok-4.7", "writer": "ollamacloud/nemotron-3-super", "builder": "agy/gemini-3.8-flash-tiered"},
+  "maxAgentCallsPerJob": 6,
+  "youtube": {"clientIdEnv": "YOUTUBE_CLIENT_ID", "clientSecretEnv": "YOUTUBE_CLIENT_SECRET", "refreshTokenEnv": "YOUTUBE_REFRESH_TOKEN"},
+  "tts": {"python": "python", "backend": "gtts", "voice": "vi-VN-HoaiMyNeural"}
+}

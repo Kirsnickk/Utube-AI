@@ -1,0 +1,11 @@
+import {escapeHTML as e} from './core.mjs';
+export function imageFirstComposition(script,assets,design,format='landscape'){
+ if(!Array.isArray(design.images)||!design.images.length||design.images.some(x=>!/^image-\d+\.png$/.test(x)))throw Error('Image mode requires local image-N.png assets');
+ if(design.sceneImages!==undefined&&(!Array.isArray(design.sceneImages)||design.sceneImages.length!==assets.scenes.length||design.sceneImages.some(x=>!design.images.includes(x))))throw Error('Scene images must match scenes and local assets');
+ const [width,height]=format==='portrait'?[1080,1920]:[1920,1080];
+ const shots=[];let index=0;
+ for(const [sceneIndex,s] of assets.scenes.entries()){const count=Math.max(2,Math.ceil(s.duration/12));for(let n=0;n<count;n++)shots.push({id:index++,sceneIndex,start:s.start+n*s.duration/count,duration:s.duration/count});}
+ const pictures=shots.map(s=>`<section class="clip" data-start="${s.start}" data-duration="${s.duration}" data-track-index="0"><img id="picture-${s.id}" class="picture" src="${e(design.sceneImages?.[s.sceneIndex]??design.images[s.id%design.images.length])}" alt="" /></section>`).join('');
+ const audio=assets.scenes.map((s,i)=>`<audio id="voice-${i}" src="${e(s.audio)}" data-start="${s.start}" data-duration="${s.duration-0.35}" data-track-index="1"></audio>`).join('');
+ return `<!doctype html><html lang="vi"><head><meta charset="utf-8"><script src="gsap.min.js"></script><style>*{box-sizing:border-box}body{margin:0;background:#070b10}#root{position:relative;width:100%;height:100%;overflow:hidden;background:#070b10}.clip{position:absolute;inset:0;overflow:hidden}.picture{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover}</style></head><body><div id="root" data-composition-id="main" data-start="0" data-width="${width}" data-height="${height}" data-duration="${assets.duration}">${pictures}${audio}</div><script>const tl=gsap.timeline({paused:true});${shots.map(s=>`tl.fromTo('#picture-${s.id}',{scale:1.06,x:${s.id%2?18:-18}},{scale:1.14,x:${s.id%2?-18:18},duration:${s.duration},ease:'none'},${s.start});tl.fromTo('#picture-${s.id}',{opacity:0},{opacity:1,duration:0.25},${s.start});`).join('')}window.__timelines['main']=tl;</script></body></html>`;
+}

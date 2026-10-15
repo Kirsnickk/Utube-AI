@@ -1,0 +1,7 @@
+{
+  "mode":"review",
+  "premise":"Phân tích lựa chọn của nhân vật trong phim bạn cung cấp",
+  "sources":[],
+  "sourceFormat":{"id":"src01","text":"Điền ghi chú nội dung/transcript bạn có quyền sử dụng, tối thiểu 50 ký tự; thêm URL hoặc đường dẫn provenance."},
+  "targetDurationSeconds":180
+}

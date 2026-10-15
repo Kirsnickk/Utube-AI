@@ -1,0 +1,14 @@
+[
+  {
+    "requestedModel": "kr/claude-sonnet-4.5",
+    "startedAt": "2026-10-14T15:40:41.029Z",
+    "httpStatus": 401,
+    "error": "{\"error\":{\"message\":\"No active credentials for provider: kiro.\",\"type\":\"authentication_error\",\"code\":\"invalid_api_key\"}}"
+  },
+  {
+    "requestedModel": "ollamacloud/nemotron-3-ultra",
+    "startedAt": "2026-10-14T15:40:41.148Z",
+    "httpStatus": 200,
+    "error": "The operation was aborted due to timeout"
+  }
+]

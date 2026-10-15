@@ -1,0 +1,58 @@
+{
+  "shots": [
+    {
+      "sceneId": "c1s1",
+      "file": "assets/original-waterwheel/scene-0.png",
+      "provenance": {
+        "origin": "Original SVG illustration authored by Hermes host; scripts/create-editorial-pilots.mjs",
+        "rights": "Created for this project; no third-party image or film still",
+        "style": "Programmatic paper-cut illustration, not diffusion-generated"
+      }
+    },
+    {
+      "sceneId": "c1s2",
+      "file": "assets/original-waterwheel/scene-1.png",
+      "provenance": {
+        "origin": "Original SVG illustration authored by Hermes host; scripts/create-editorial-pilots.mjs",
+        "rights": "Created for this project; no third-party image or film still",
+        "style": "Programmatic paper-cut illustration, not diffusion-generated"
+      }
+    },
+    {
+      "sceneId": "c2s1",
+      "file": "assets/original-waterwheel/scene-2.png",
+      "provenance": {
+        "origin": "Original SVG illustration authored by Hermes host; scripts/create-editorial-pilots.mjs",
+        "rights": "Created for this project; no third-party image or film still",
+        "style": "Programmatic paper-cut illustration, not diffusion-generated"
+      }
+    },
+    {
+      "sceneId": "c2s2",
+      "file": "assets/original-waterwheel/scene-3.png",
+      "provenance": {
+        "origin": "Original SVG illustration authored by Hermes host; scripts/create-editorial-pilots.mjs",
+        "rights": "Created for this project; no third-party image or film still",
+        "style": "Programmatic paper-cut illustration, not diffusion-generated"
+      }
+    },
+    {
+      "sceneId": "c3s1",
+      "file": "assets/original-waterwheel/scene-4.png",
+      "provenance": {
+        "origin": "Original SVG illustration authored by Hermes host; scripts/create-editorial-pilots.mjs",
+        "rights": "Created for this project; no third-party image or film still",
+        "style": "Programmatic paper-cut illustration, not diffusion-generated"
+      }
+    },
+    {
+      "sceneId": "c3s2",
+      "file": "assets/original-waterwheel/scene-5.png",
+      "provenance": {
+        "origin": "Original SVG illustration authored by Hermes host; scripts/create-editorial-pilots.mjs",
+        "rights": "Created for this project; no third-party image or film still",
+        "style": "Programmatic paper-cut illustration, not diffusion-generated"
+      }
+    }
+  ]
+}

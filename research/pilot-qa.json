@@ -1,0 +1,38 @@
+[
+  {
+    "id": "story-film-002",
+    "duration": 187.634,
+    "width": 1920,
+    "height": 1080,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "subtitleCount": 44,
+    "lastSubtitleEnd": 187.27,
+    "assetCount": 6,
+    "videoHash": "a91cea33d78150c697da78460730239aeb9aa2fd928d5bdad952e138fcf8ce2e",
+    "fullDecode": true,
+    "resumePreservedMediaBytesAndMtimes": true,
+    "agentCalls": 0,
+    "contactSheet": "qa-contact.png",
+    "perceptualAudioReview": "not performed",
+    "checkedAt": "2026-10-14T16:01:59.205Z"
+  },
+  {
+    "id": "review-film-002",
+    "duration": 191.8,
+    "width": 1920,
+    "height": 1080,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "subtitleCount": 33,
+    "lastSubtitleEnd": 191.422,
+    "assetCount": 6,
+    "videoHash": "5269f223b4337bf395a77bcecaf7e7ecbc713b7944b1488835f1d71128f0b517",
+    "fullDecode": true,
+    "resumePreservedMediaBytesAndMtimes": true,
+    "agentCalls": 0,
+    "contactSheet": "qa-contact.png",
+    "perceptualAudioReview": "not performed",
+    "checkedAt": "2026-10-14T16:02:12.605Z"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "mode":"review",
+  "premise":"Video giới thiệu và định hướng bình luận về Tam Quốc, bản phim truyền hình 2010 của Cao Hy Hy. Chỉ giới thiệu phạm vi cốt truyện đã có trong catalog; không đánh giá diễn xuất hay kể chi tiết từng tập chưa có nguồn.",
+  "work_id":"three-kingdoms-2010",
+  "source_scope":"official_catalog_only",
+  "targetDurationSeconds":180,
+  "sources":[{"id":"iqiyi_catalog","url":"https://www.iq.com/album/%E4%B8%89%E5%9C%8B-2010-19rrj6uod5?lang=zh_tw","text":"Catalog iQIYI xác nhận bộ phim Tam Quốc năm 2010 do Cao Hy Hy đạo diễn, có danh sách phát đến tập 95. Mô tả bao quát giai đoạn cuối Đông Hán, các trận Quan Độ và Xích Bích, thế chân vạc ba nước, rồi sự chuyển giao quyền lực đến nhà Tấn. Nguồn chỉ là thông tin catalog tổng quan, không phải transcript từng tập."}]
+}
